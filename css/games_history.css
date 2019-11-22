@@ -1,0 +1,79 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+header{
+	background: url(../image/title.jpg) no-repeat center top / cover;
+	height: 600px;
+}
+.cont{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	height: 70px;
+	width: 70px;
+	margin-top: 30px;
+	border-radius: 50%;
+}
+.name_isp{
+	float: right;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 40px;
+	margin-top: 60px;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.title_h2 {
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 200px;
+}
+.titles h1 {
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 50px;
+}
+
+footer{
+	background: url(../image/hist.jpg) no-repeat center top / cover;
+	height: 900px;
+}
+.games_hist{
+	padding-top: 30px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.games_hist p{
+	padding: 0;
+	margin: 20;
+	font-size: 22px;
+	color: #fff;
+}
+.ist a{
+	font-size: 30px;
+	color: #fff;
+	padding-left: 100px;
+}
